@@ -100,11 +100,11 @@
                 <div class="team" style="display: flex; align-items: center; position: relative; left :100px ">
                     <img src="{{ asset('uploads/teams/' . $game->homeTeam->img) }}" 
                          style="width : 25px; height : 30px; border-radius: 10%; margin-right : 10px;">
-                    {{ $game->homeTeam->nameteams }}
+                   <h5 style="position: relative; top :5px">{{ $game->homeTeam->nameteams }}</h5> 
                 </div>
                 <div class="vs" style="margin: 0; padding:0;  position: absolute; left : 50%; transform: translateX(-50%);" >vs</div>
                 <div class="team" style="display: flex; align-items: center; position: relative; right :100px ">
-                    {{ $game->awayTeam->nameteams }}
+                   <h5 style="position: relative; top :5px">{{ $game->awayTeam->nameteams }}</h5> 
                     <img src="{{ asset('uploads/teams/' . $game->awayTeam->img) }}" 
                     style="width : 25px; height : 30px; border-radius: 10%; margin-left : 10px;">
                 </div>
