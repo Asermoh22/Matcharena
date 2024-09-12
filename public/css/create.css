@@ -1,0 +1,54 @@
+body{
+    background-color: #292727;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+#exampleInputEmail1 ,#formFileSm,#league_id{
+    width : 500px;
+    
+}
+
+
+#header{
+
+    position: relative;
+    inset-inline-start: 20px;
+    
+  
+
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+
+}
+
+i, h4 {
+    display: inline-block;
+    vertical-align: middle; /* Aligns the icon with the text */
+}
+i{
+    font-size: 25px;
+    color: #8dc6ff;
+}
+h4 {
+
+   
+    margin-left : 7px; /* Optional: Adds some space between the icon and the text */
+}
+
+.container{
+    position: relative;
+
+    top :70px ;
+    left :     40px;
+}
+
+
+
+
+

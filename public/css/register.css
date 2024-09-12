@@ -1,0 +1,117 @@
+body{
+    background-color: #292727;
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing:auto;
+    font-weight: 400;
+    font-size:medium;
+    font-style:normal;
+    margin: 0;
+    padding: 0;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    scrollbar-width: none; /* Hides scrollbar in Firefox */
+
+
+
+    
+}
+
+#exampleInputEmail1, #exampleInputPassword1 {
+    width : 500px;
+   
+
+}
+
+#exampleInputEmail1, #exampleInputPassword1,.form-label {
+    position: relative;
+    left :300px ;
+    bottom :350px ;
+
+}
+
+
+
+
+.content{
+    background-color:  rgb(29, 27, 27);
+    border-radius: 10px;
+    width :850px ;
+    height : 400px;
+    position: relative;
+    left :350px ;
+    top :150px ;
+}
+
+#buut{
+    width : 170px;
+    position: relative;
+    bottom : 340px;
+    left :470px ;
+}
+
+i, h4 {
+    display: inline-block;
+    vertical-align: middle; /* Aligns the icon with the text */
+}
+i{
+    font-size: 25px;
+    color: #8dc6ff;
+}
+h4 {
+  
+    margin-left : 7px; /* Optional: Adds some space between the icon and the text */
+}
+
+.logo{
+    position: relative;
+    top :30px ;
+    left : 420px;
+    font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header{
+    position: relative;
+    left : 7px;
+}
+#im{
+    width : 246px;
+    position: relative;
+    bottom :33px ;
+    margin: 0;
+    padding: 0;
+}
+
+
+.btn-primary-custom {
+    
+    background-color: #5c5470; /* Primary color */
+    color: #ffffff; /* Text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-primary-custom:hover {
+    background-color: #4b415e; /* Darker shade for hover effect */
+}
+
+.navbar-light{
+    position: relative;
+    right :3px ;
+}
+
+
+
+::-webkit-scrollbar {
+   display: none;
+}
+
+/* For Firefox */

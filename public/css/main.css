@@ -1,0 +1,86 @@
+body{
+    background-color: #292727;
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing:auto;
+    font-weight: 400;
+    font-size:medium;
+    font-style:normal;
+    margin: 0;
+    padding: 0;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+.sidebar{
+    position: fixed;
+    left : 0;
+    top : 0;
+    bottom : 0;
+    width : 300px;
+    background-color: rgb(31, 31, 31);
+    padding: 25px;
+}
+
+.sidebar .logo img{
+    width : 160px;
+}
+.sidebar .navigation ul{
+    list-style : none;
+    margin-top : 20px;
+}
+.sidebar .navigation ul li{
+    padding: 10px 0px;
+}
+
+.sidebar .navigation ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.sidebar .navigation ul li a:hover,
+.sidebar .navigation ul li a:active,
+.sidebar .navigation ul li a:focus{
+    color: white;
+}
+
+.sidebar .navigation ul li a:hover .fa,
+.sidebar .navigation ul li a:active .fa,
+.sidebar .navigation ul li a:focus .fa{
+    color: white;
+}
+#header{
+
+    position: relative;
+    inset-inline-start: 15px;
+    
+  
+
+}
+
+i, h4 {
+    display: inline-block;
+    vertical-align: middle; /* Aligns the icon with the text */
+}
+i{
+    font-size: 25px;
+    color: #8dc6ff;
+}
+h4 {
+
+   
+    margin-left : 7px; /* Optional: Adds some space between the icon and the text */
+}
+
+.container{
+    position: relative;
+
+    top :70px ;
+    left : 160px;
+}
+
